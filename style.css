@@ -1,0 +1,155 @@
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(background.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#container{
+  border:1px solid white;
+  height: 250px;;
+  width: 300px;
+  position: relative;
+  border-radius: 6px;
+  position: fixed;
+  backdrop-filter: blur(2px);
+
+}
+#container:hover{
+  box-shadow: 2px 2px 10px rgb(147, 198, 198);
+  backdrop-filter: blur(20px);
+}
+h2{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+  top:1%;
+  left: 2.5%;
+ 
+}
+#username{
+  position:relative;
+  top: 35%;
+  left: 5%;
+  width: 250px;
+  max-height:10vh;
+  margin-left: 9px;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(253, 253, 153);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  margin-bottom: 10px;
+  font-size: 18px;
+  
+  background: transparent;
+  border-radius: 10px;
+}
+#username:hover{
+  border: 1px solid #f4e6e3;
+  box-shadow: 0px 0px 5px #ffffff;
+}
+#username::placeholder{
+  padding-left :10px;
+  color: #cccccc;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+}
+#password{
+  position:relative;
+  top: 45%;
+  left: 5%;
+width: 250px;
+  max-height:5vh;
+  margin-left: 9px;
+  border: 1px solid;
+  
+  margin-bottom: 10px;
+  font-size: 18px;
+  background: transparent;
+  border-radius: 10px;
+}
+#password:hover{
+  border: 1px solid #f4e6e3;
+  box-shadow: 0px 0px 5px #ffffff;
+}
+#password::placeholder{
+  padding-left :10px;
+  color: #cccccc;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+}
+  
+i{
+  position: fixed;
+  top:100px;
+  left: 250px;
+  font-size: 20px;
+
+  color: #fffefe;
+}
+#profile{
+  position:relative;
+  top: 34%;
+  left: -5%;
+  font-size: 15px;
+  
+  
+ 
+}
+#pass{
+  position:relative;
+  top: 34%;
+  left: -5%;
+  font-size: 15px;
+}
+#rememberMel{
+  position: relative;
+  left: 14%;
+}
+#rememberMe{
+  position: relative;
+  left:-27%;
+  
+}
+#forgotPassword{
+  position: relative;
+  top: 45%;
+  left: 15%;
+  font-size: 15px;
+  color: bisque;
+}
+button{
+  position: relative;
+  top: 55%;
+  left: 5%;
+  width: 270px;
+  margin-top: 15px;
+  padding:5px;
+  border: 1px solid ;
+  border-radius: 15px;
+  
+  background-color: rgb(255, 255, 255);
+ 
+}
+button:hover{
+  
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+
+  box-shadow: 2px 2px 3px;
+}
+#reg{
+  position: relative;
+  top: 55%;
+  left: 17%;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+a{
+  text-decoration:underline;
+  color: beige;
+}
